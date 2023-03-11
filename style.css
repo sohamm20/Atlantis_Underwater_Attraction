@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	/* background-color: #054f77; */
+  background-image: url('./background.jpg');
+	color: #fff;
+}
+
+header {
+	background-image: url("header-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 30px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+h1 {
+	font-size: 5rem;
+	margin-top: 30px;
+}
+
+button {
+	background-color: #fff;
+	color: #054f77;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 25px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+main {
+	padding: 50px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.tour-container {
+display: flex;
+justify-content: space-between;
+}
+
+.tour-item {
+flex-basis: 30%;
+}
+
+.tour-item h3 {
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+
+.tour-item img {
+width: 100%;
+}
+
+.camera-container {
+display: flex;
+justify-content: space-between;
+}
+
+.camera-item {
+flex-basis: 48%;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.camera-item h3 {
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+
+.camera-item iframe {
+width: 100%;
+height: 300px;
+border: none;
+}
+
+footer {
+background-color: #fff;
+color: #054f77;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+footer p {
+flex-basis: 100%;
+text-align: center;
+margin-bottom: 20px;
+}
+
+footer ul {
+flex-basis: 100%;
+display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+footer li {
+margin-right: 30px;
+}
+
+.social-media {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.social-media img {
+width: 50px;
+height: 50px;
+margin-left: 10px;
+margin-right: 10px;
+cursor: pointer;
+}
